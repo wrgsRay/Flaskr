@@ -13,6 +13,7 @@ PASSWORD = 'admin'
 app = Flask(__name__)
 app.config.from_object(__name__)
 
+
 # Connect to database
 def connect_db():
     """Connects to database."""
